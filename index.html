@@ -10,28 +10,52 @@
     <title>Viajes con Minube</title>
 </head>
 <body>
-    <!-- ⁡⁣⁢⁣********⁡ ⁡⁣⁢⁣NAVRBAR⁡ ⁡⁣⁢⁣********⁡ -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand logo" href="#">
-                <img src="./img/icon_minube_sidebar.svg" alt="Minube">
-            </a>
+    <!-- ⁡⁣⁢⁣********⁡ HEADER ⁡⁣⁢⁣********⁡ -->
+    <header class="container-fluid">
+        <section class="row inicial">
+            <div class=" col-sm-5 ">
+                <ul class="d-flex social-media d-none d-sm-block">
+                    <li class="list-inline-item">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item"> 
+                        <a href="#"><i class="bi bi-instagram "></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" ><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" ><i class="bi bi-youtube"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" ><i class="bi bi-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-7 registro">
+                <ul class="d-flex justify-content-sm-end">
+                    <li>
+                        <a href=""><i class="bi bi-person-fill"></i>iniciar sesión</a>
+                    </li>
+                    <li>
+                        <a href=""><i class="bi bi-person-plus-fill"></i>Registrate</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- ******** NAVBAR ******** -->
+        <nav class="row navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
+                <a class="navbar-brand logo" href="#">
+                    <img src="./img/icon_minube_sidebar.svg" alt="Minube">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="social-media">
-                    <a href=""><i class=" bi bi-share-fill me-3 "></i></a>
-                    <a href=""><i class="bi bi-instagram  me-3"></i></a>
-                    <a href=""><i class="bi bi-facebook  me-3"></i></a>
-                    <a href=""><i class="bi bi-twitter  me-3"></i></a>
-                </div>
                 <!-- Inicia Menu -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto d-flex">
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <form class=" d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
                         <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
                     </form>
                 </div>
@@ -39,9 +63,69 @@
         </nav>
     </header>
 
-    <footer>
+    <section class="header-home">
+        <div class="transparencia">
+        </div>
+        <div class="container-fluid header-container">
+            <h1 class="titulo">Tu viaje empieza en Jujuy</h1>
+            <h2 class="subTitulo d-none d-md-block">Encuentra tu destino y prepara tu viaje.</h2>
+        </div>
+    </section>
 
+
+    
+
+    ⁡⁣⁢⁣<!-- ******** FOOTER ******** -->⁡
+    <footer class="container-fluid p-4">
+        <section class=" row text-center text-md-start">
+            <div class="col-md">
+                <h3 class="text-uppercase mb-2">Nosotros</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolores 
+                    similique quam velit, nesciunt quas consequatur laborum ipsum 
+                    magnam, deleniti dignissimos ex, voluptas esse illum eveniet sequi 
+                    fugia reprehenderit. Labore.</p>
+            </div>
+            <div class="col-md">
+                <h3 class="text-uppercase mb-2">Contacto</h3>
+                <ul>
+                    <li><i class="bi bi-envelope"></i> 123@gmail.com</li>
+                    <li ><i class="bi bi-whatsapp"></i> +555555555555</li>
+                </ul>
+            </div>
+            <div class="text-center">
+                <ul class="social-footer">
+                    <li class="list-inline-item">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item"> 
+                        <a href="#"><i class="bi bi-instagram "></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" ><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" ><i class="bi bi-youtube"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" ><i class="bi bi-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="text-center">
+                <img class="mb-2 logo-footer" src="./img/icon_minube_sidebar.svg" alt="Jujuy_Logo">
+                <p class="small">Copyright &copy; 2023 SosaMilagros</p>
+            </div>
+            <div class="text-center">
+                <ul>
+                    <li class="list-inline-item"><a href="#">Politica de privacidad</a></li>
+                    <li class="list-inline-item"><a href="#">Seguridad</a></li>
+                    <li class="list-inline-item"><a href="#">Administrar Cookies</a></li>
+                </ul>
+            </div>
+        </section>
     </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

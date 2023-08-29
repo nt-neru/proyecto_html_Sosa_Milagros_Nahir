@@ -1,19 +1,90 @@
-header{
-    background-color: pink; 
-    border: solid palevioletred;
+/* ----------- Header ----------- */
+.inicial{
+    background: black;
+}
+ul{
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 3px;
+    padding: 0;
+}
+.collapse{
+    justify-content: flex-end;
+    align-items: center;
+}
+.social-media li a{
+    color: green;
+} 
+.social-media{
+    word-spacing: 8px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.registro{
+    font-size: 18px;
+    align-content: center;
+}
+.registro ul li a{
+    text-decoration: none;
+    padding: 10px;
+}
+.registro i{
+    margin: 0 5px;
 }
 .logo{ 
     margin: 5px 25px;
 }
-.social-media a{
-    color: green;
-} 
+.logo img{
+    width: 200px;
+}
+/* ----------- HEADER HOME ----------- */
+.header-home{
+    background-image: url(./../../img/vista-panoramica-pico-roys-nueva-zelanda-montanas-bajas-distancia-celaje.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    width: 100%;
+    color: #fff;
+}
+.transparencia{
+    background-color: black;
+    opacity: .3;
+    height: 100%;
+}
+ .header-container{
+    position: absolute; 
+    text-align: center;
+    top: 40%;
+    width: 100%;
+}
+.titulo{
+    font-size: 50px;
+}
+.subTitulo{
+    font-size: 20px;
+}
 
+/* ----------- Footer ----------- */
+footer{
+    background-color: rgb(23, 15, 30);
+    color: #fff;
+}
+.social-footer{
+    word-spacing: 10px;
+    font-size: 2em;
+    margin: 0px;
+    padding: 0px;
+}
+.logo-footer{
+    width: 200px;
+}
+.text-center{
+    margin: 15px 0;
+}
+
+
+/* ----------- Media ----------- */
 @media screen and (max-width:980px) {
-    header .logo{
-        width: 100%;
-        height: 50px;
-        display: flex; 
-        justify-content: center;
-    }
+    
 }
