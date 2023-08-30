@@ -1,12 +1,18 @@
-/* ----------- Header ----------- */
-.inicial{
-    background: black;
+a{
+    text-decoration: none;
 }
 ul{
     list-style: none;
     justify-content: space-evenly;
     margin: 3px;
     padding: 0;
+}
+.titulo, .subTitulo, .mapa, footer section div{
+    text-align: center;
+}
+/* ----------- HEADER ----------- */
+.inicial{
+    background: black;
 }
 .collapse{
     justify-content: flex-end;
@@ -23,9 +29,9 @@ ul{
 .registro{
     font-size: 18px;
     align-content: center;
+    gap: 20px;
 }
 .registro ul li a{
-    text-decoration: none;
     padding: 10px;
 }
 .registro i{
@@ -64,7 +70,58 @@ ul{
 .subTitulo{
     font-size: 20px;
 }
+/* ----------- MAIN ----------- */
 
+main{
+    background-color: aqua;
+    padding: 20px 0;
+    margin: 0 0;
+}
+main section{
+    padding: 20px 0;
+    
+}
+main .container .row{
+    padding: 20px;
+    background: red;
+    border-radius: 20px;
+    align-items: center;
+    margin: 0 0;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.posts{
+    display: flex;
+    flex-flow: row wrap;
+    background: black;
+    justify-content: center;
+    padding: 40px 0;
+    margin: 0 0;
+    gap: 20px;
+}
+.post{
+    border: solid red 2px;
+    border-bottom: #428BCA 1px solid;
+}
+.color{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.view{
+    text-align: center;
+}
+.view img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+.card{
+    width: 18rem;
+}
 /* ----------- Footer ----------- */
 footer{
     background-color: rgb(23, 15, 30);
