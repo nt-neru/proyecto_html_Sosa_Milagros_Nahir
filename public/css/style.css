@@ -1,5 +1,13 @@
+body{
+    font-family: Montserrat;
+}
 a{
     text-decoration: none;
+    color: #fff;
+}
+h3{
+    color: rgb(235, 133, 96);
+    font-weight: 700;
 }
 ul{
     list-style: none;
@@ -7,28 +15,26 @@ ul{
     margin: 3px;
     padding: 0;
 }
-.titulo, .subTitulo, .mapa, footer section div{
+.titulo, .subTitulo, .mapa, footer section div, .view{
     text-align: center;
 }
 /* ----------- HEADER ----------- */
 .inicial{
-    background: black;
+    background-color: rgb(23, 15, 30);
 }
 .collapse{
     justify-content: flex-end;
-    align-items: center;
 }
 .social-media li a{
-    color: green;
+    color: rgb(111, 181, 82);
 } 
 .social-media{
     word-spacing: 8px;
-    font-size: 18px;
+    font-size: 25px;
     padding-left: 20px;
 }
 .registro{
-    font-size: 18px;
-    align-content: center;
+    font-size: 20px;
     gap: 20px;
 }
 .registro ul li a{
@@ -41,7 +47,7 @@ ul{
     margin: 5px 25px;
 }
 .logo img{
-    width: 200px;
+    height: 50px;
 }
 /* ----------- HEADER HOME ----------- */
 .header-home{
@@ -54,7 +60,7 @@ ul{
     color: #fff;
 }
 .transparencia{
-    background-color: black;
+    background-color: rgb(23, 15, 30);
     opacity: .3;
     height: 100%;
 }
@@ -65,15 +71,16 @@ ul{
     width: 100%;
 }
 .titulo{
-    font-size: 50px;
+    font-size: 70px;
+    font-weight: 600;
 }
 .subTitulo{
     font-size: 20px;
 }
-/* ----------- MAIN ----------- */
 
+/* ----------- MAIN ----------- */
 main{
-    background-color: aqua;
+    background-color: rgb(192, 216, 216);
     padding: 20px 0;
     margin: 0 0;
 }
@@ -83,12 +90,15 @@ main section{
 }
 main .container .row{
     padding: 20px;
-    background: red;
+    background: #fff;
     border-radius: 20px;
     align-items: center;
     margin: 0 0;
 }
-table{
+td{
+    border: none;
+}
+.table{
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
@@ -96,32 +106,40 @@ table{
 .posts{
     display: flex;
     flex-flow: row wrap;
-    background: black;
+    background: #fff;
     justify-content: center;
-    padding: 40px 0;
+    padding: 40px;
     margin: 0 0;
-    gap: 20px;
+    gap: 0px;
 }
+.posts article{
+    padding: 20px;
+} 
 .post{
-    border: solid red 2px;
-    border-bottom: #428BCA 1px solid;
+    border: none;
 }
 .color{
     width: 40px;
     height: 40px;
     margin-bottom: 10px;
+    margin: auto;
 }
-.view{
-    text-align: center;
-}
-.view img{
+.img-thumbnail{
     height: 150px;
     width: 150px;
     border-radius: 100%;
+    margin-bottom: 10px;
 }
 .card{
-    width: 18rem;
+    width: 20.5em;
 }
+.txtrows-2{
+    height: 60px;
+    overflow: hidden;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
 /* ----------- Footer ----------- */
 footer{
     background-color: rgb(23, 15, 30);
@@ -133,6 +151,9 @@ footer{
     margin: 0px;
     padding: 0px;
 }
+.social-footer li a{
+    color: rgb(111, 181, 82);
+}
 .logo-footer{
     width: 200px;
 }
@@ -143,5 +164,16 @@ footer{
 
 /* ----------- Media ----------- */
 @media screen and (max-width:980px) {
-    
+    .txtrows-2{
+        height: 80px;
+    }
+    .titulo{
+        font-size: 3em;
+    }
+    .row .col-md-6 p{
+        font-size: 15px;
+    }
+    tr td span{
+        font-size: 13px;
+    }
 }
