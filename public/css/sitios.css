@@ -1,0 +1,99 @@
+/* ----------- HEADER ----------- */
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
+/* ----------- MAIN ----------- */
+main{
+    padding: 0;
+    background-color: rgb(23, 15, 30);
+}
+main section{
+    padding: 0;
+}
+.posts{
+    padding: 40px;
+    gap: 40px;
+}
+.card{
+    width: 20rem;
+}
+.post{
+    padding: 0;
+    margin: 0;
+}
+
+/* ----------- Sitios ----------- */
+.page-link{
+    text-align: center;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+}
+.img-thumbnail{
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+}
+.navigation{
+    padding: 0;
+}
+.sitios{
+    padding-top: 129.5px;
+}
+.posts article{
+    padding: 0;
+}
+.card{
+    align-items: center;
+}
+.card-text{
+    height: 60px;
+    overflow: hidden;
+    font-size: 14px;
+}
+/* ----------- Aside ----------- */
+.aside-contenedor{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 2;
+    padding: 30px;
+    padding-top: 129px;
+    font-size: 18px;
+    
+}
+.aside-contenedor h2{
+    padding: 20px;
+}
+.aside-grid{
+    width: 0px;
+    background-color: #fff;
+}
+.sesion{
+    padding-top: 0px;
+}
+.sesion a {
+    padding: 40px 0px;
+}
+.sesion a i{
+    padding-right: 20px;
+}
+.nav {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 350px;
+}
+
+/* ----------- Media ----------- */
+@media screen and (max-width:980px) {
+    .posts{
+        padding: 40px 0px;
+    }
+}
